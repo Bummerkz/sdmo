@@ -1,0 +1,78 @@
+*,button:focus,*:focus,*:active,a,a:focus,a:active{outline: none !important}
+body {
+    color: #444;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+.red{color:red}
+.green{color:green}
+.navbar{margin: 0;z-index: 100;}
+.navbar-default {    background-color: #fff;  box-shadow: 0 0 2px 0 #ccc;  border-bottom: 1px solid #ccc;position: sticky; top: 0;width: 100%}
+.logo{padding: 5px;}
+.navbar-default .navbar-nav > li > a {    color: #555;}
+.navbar-nav > li > a {    line-height: 30px;}
+.navbar-default .navbar-toggle {margin-top: 14px;}
+
+.nav-tabs > li > a {  color: #888;    font-size: 16px;    line-height: 28px;    padding: 7px 20px;}
+.nav-tabs .glyphicon {    float: left;    font-size: 20px;    line-height: normal;    margin: 0 6px 0 0;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #333;
+}
+#namePage{}
+#namePage b {/*color:#2293d1*/}
+
+.tab-content{margin-top: 20px;}
+
+.sub-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+input[type="checkbox"], input[type="radio"] {    line-height: normal;    margin: 1px 0 0;}
+
+.sidebar {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-right: 1px solid #eee;
+    bottom: 0;
+    display: block;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 61px;
+    width: 215px;
+    z-index: 50;
+}
+.nav-sidebar {
+    margin: 5px 0 0;
+}
+.nav-sidebar .active a,.nav-sidebar .active a:hover {
+    background-color: #428bca;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-sidebar li a {
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main {
+    padding: 10px 20px;
+    margin-left: 215px;
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+.main .user_delete{
+    cursor: pointer;
+}
+.tab-content .table {max-width: 750px;margin:20px 0;}
+.tab-content form {max-width: 500px;}
+.tab-content .mess {    color: #000;    margin: 10px 0;}
+
+table th.sort {cursor: pointer}
+table th.sort.empty::after {    color: #000;    content: "  ↓↑";}
+table th.sort.desc::after {content: "  ↓";color: #000;}
+table th.sort.asc::after {content: "  ↑";color: #000;}

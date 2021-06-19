@@ -1,0 +1,16 @@
+/.vscode
+*.php~
+db_connect.*
+*.csv
+/ajax
+/cron
+/css
+/data
+/datascripts
+/exchange
+/fonts
+/images
+/init
+/report
+/robustel
+/trend
